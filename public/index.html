@@ -36,24 +36,28 @@
     />
   </head>
   <body>
-    <div class="bg-[#666] text-white text-center py-20">
-      <div class="flex justify-center items-center">
-        <img height="200" width="200" src="clepy-logo-transparent.png" />
+    <div class="bg-[#666] text-white text-center content-center py-20">
+      <div class="flex justify-center max-w-xl flex-col mx-auto">
+        <div>
+          <div class="flex justify-center items-center">
+            <img height="200" width="200" src="clepy-logo-transparent.png" />
+          </div>
+          <h1 class="text-6xl font-bold mb-2">
+            The Cleveland Python Meetup (CLEpy)
+          </h1>
+          <p class="text-xl">
+            CLEpy is a monthly meetup for Python developers, enthusiasts, and
+            learners in the Cleveland area. We typically meet on the first
+            Monday of every month. See our
+            <a
+              class="underline"
+              href="https://www.meetup.com/cleveland-area-python-interest-group/"
+              >CLEpy Meetup</a
+            >
+            page for the time and location of our next meetup.
+          </p>
+        </div>
       </div>
-      <h1 class="text-6xl font-bold mb-2">
-        The Cleveland Python Meetup (CLEpy)
-      </h1>
-      <p class="text-xl">
-        CLEpy is a monthly meetup for Python developers, enthusiasts, and
-        learners in the Cleveland area. We typically meet on the first Monday of
-        every month. See our
-        <a
-          class="underline"
-          href="https://www.meetup.com/cleveland-area-python-interest-group/"
-          >CLEpy Meetup</a
-        >
-        page for the time and location of our next meetup.
-      </p>
     </div>
 
     <div class="bg-gray-100 p-8 text-center flex justify-center flex-wrap">
@@ -88,7 +92,11 @@
           class="mx-2"
           >LinkedIn</a
         >|
-        <a href="https://fosstodon.org/@clepy" target="_blank" class="mx-2"
+        <a
+          rel="me"
+          href="https://fosstodon.org/@clepy"
+          target="_blank"
+          class="mx-2"
           >fosstodon.org/@clepy</a
         >|
         <a
